@@ -19,7 +19,7 @@
       },
       input: trix_id,
       placeholder: @field.placeholder do %>
-      <%= sanitize @field.value %>
+      <%== @field.value %>
     <% end %>
     <%= @form.text_area @field.id,
       class: classes("w-full hidden"),
